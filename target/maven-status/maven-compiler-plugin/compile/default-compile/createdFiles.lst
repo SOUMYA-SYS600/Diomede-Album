@@ -1,0 +1,3 @@
+com\diomede\album\Main.class
+com\diomede\album\parser\DicomParser.class
+com\diomede\album\service\AlbumService.class
