@@ -31,3 +31,27 @@ Diomede-Album/
 │   │       └── model/                # Data structures for Albums/Images
 ├── pom.xml                           # Maven dependencies
 └── README.md                         # Project documentation
+How to Run (Proof of Concept)
+Note: Ensure Maven is installed on your system.
+
+1.Clone the repository:
+git clone [https://github.com/your-username/Diomede-Album.git](https://github.com/your-username/Diomede-Album.git)
+cd Diomede-Album
+
+2.Build the project:
+mvn clean compile
+
+3.Run the Album Organizer:
+mvn exec:java -Dexec.mainClass="com.diomede.album.Main"
+
+📅 Roadmap for GSoC 2026
+Phase 1: Implement a local SQLite database to index thousands of medical images.
+
+Phase 2: Develop a JSON manifest generator compatible with the OHIF Viewer.
+
+Phase 3: Create a shareable URL system for collaborative research.
+
+Phase 4: Integration with the Kheops DICOM management framework.
+
+Author:[Soumya Ranjan Sahoo]
+Proposal: GSoC 2026 | Project
